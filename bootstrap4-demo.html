@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    
+<style>
+.header {
+  height: 80vh;
+  background-image: url(https://images.unsplash.com/photo-1525422847952-7f91db09a364?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce6622924dae3b9be067e1778a6b8707&auto=format&fit=crop&w=1065&q=80);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  }
+
+.btn-outline-Light:hover {
+  color: white;
+
+}
+nav{
+  background-color: rgba(0,0,0,.8);
+}
+
+.bg-cover{
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-attachment{
+    background-attachment: fixed;
+}
+
+.radius{
+border-radius:10px;
+border: rgba(0,0,0,.6) 1px solid;
+}
+
+.input{
+ 
+    float:left;
+    width: 320px;
+    height: 38px;
+    margin: 8px 80px 0px 100px;
+    
+    padding: 8px 12px 8px 18px;
+    outline: 0 none;
+    color: black;
+    font-size: 14px;
+    line-height: 22px;
+    background: rgba(255,255,255,.3);
+    border:0 none;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+}
+
+form{
+  display: block;
+}
+.all{
+      float: left;
+    height: 38px;
+    margin: 16px auto;
+    position: relative;
+}
+
+.btn{
+  position: absolute;
+   margin-top: 8px;
+    width: 80px;
+    height: 40x;
+    line-height: 38px;
+    top: 0;
+    right: -1px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+    background: -webkit-linear-gradient(right,#3b9eff 0,#19c3ff 100%);
+    background: linear-gradient(to left,#3b9eff 0,#19c3ff 100%);
+    outline: 0;
+    cursor: pointer;
+    border: 0 none;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+
+</style>
+
+</head>
+
+<body>
+<header class="header d-flex justify-content-center align-items-center">
+      <div class="text-center text-white">
+        <div class="all">  
+          <div class="inner">
+            <form action="" class="form">
+            <input type="text" class="input"> 
+            <button class="btn">search</button>
+            </form>
+          </div>
+        </div>
+            <h1>Welcome my bootstrap-demo</h1>
+            <h2>Create beauitful graphics</h2>
+           
+        </div>
+ </header>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="navbar-brand text-white" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active text-white" href="#">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-item nav-link text-white" href="#">Features</a>
+                <a class="nav-item nav-link text-white" href="#">Pricing</a>
+                <a class="nav-item nav-link disabled text-white" href="#">Disabled</a>
+            </div>
+        </div>
+    </nav>
+
+  <section class="py-5 container">
+    <h2 class="text-center">About</h2>
+    <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c0882af6fc30960d027b31250a10b75d&auto=format&fit=crop&w=500&q=60" >
+      </div>
+      <div class="col-md-6">
+        <h3>We are best</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+    </div>
+  </section>
+
+
+<section class="py-5 bg-cover bg-attachment" style="background-image:url(https://images.unsplash.com/photo-1517672907337-8884809cb954?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f1b40682ecc86622f3b3faae8a56626c&auto=format&fit=crop&w=500&q=60) ">
+  <div class="container text-white" id="123">
+    <h2 class="text-center">Serice Item</h2>
+    <p class="text-center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+  </div>
+  <div class="row">
+    <div class="col-md-4 d-flex shadow p-3 mb-5 bg-white rounded-circle align-items-center">
+      <i class="fab fa-instagram fa-4x mr-3"></i>
+      <div>
+        <h3>loerm</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit nemo quasi, atque ea tempore molestias iusto non illo quam amet ipsum, recusandae aut explicabo minus quidem repellat ipsam labore.</p>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex shadow p-3 mb-5 bg-white rounded">
+      <i class="fab fa-instagram fa-8x mr-3"></i>
+      <div>
+        <h3>loerm</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit nemo quasi, atque ea tempore molestias iusto non illo quam amet ipsum, recusandae aut explicabo minus quidem repellat ipsam labore.</p>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex shadow py-3 mb-5 bg-white rounded">
+      <i class="fab fa-instagram fa-8x mr-3"></i>
+      <div>
+        <h3>loerm</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit nemo quasi, atque ea tempore molestias iusto non illo quam amet ipsum, recusandae aut explicabo minus quidem repellat ipsam labore.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 d-flex shadow p-3 mb-5 bg-white rounded">
+      <i class="fab fa-instagram fa-8x mr-3"></i>
+      <div>
+        <h3>loerm</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit nemo quasi, atque ea tempore molestias iusto non illo quam amet ipsum, recusandae aut explicabo minus quidem repellat ipsam labore.</p>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex shadow p-3 mb-5 bg-white rounded">
+      <i class="fab fa-instagram fa-8x mr-3"></i>
+      <div>
+        <h3>loerm</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit nemo quasi, atque ea tempore molestias iusto non illo quam amet ipsum, recusandae aut explicabo minus quidem repellat ipsam labore.</p>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex shadow py-3 mb-5 bg-white rounded">
+      <i class="fab fa-instagram fa-8x mr-3"></i>
+      <div>
+        <h3>loerm</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae velit nemo quasi, atque ea tempore molestias iusto non illo quam amet ipsum, recusandae aut explicabo minus quidem repellat ipsam labore.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <footer class="bg-light py-3 mt-3">
+        <div class="container">
+            <ul class="List-unstyled">
+                <li>
+                    <a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a>
+                </li>
+                <li>
+                    <a href="#">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</a>
+                </li>
+                <li>
+                    <a href="#">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</a>
+                </li>
+            </ul>
+            <p class="text-muted text-center">版權歸屬於KenBeat所有</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
